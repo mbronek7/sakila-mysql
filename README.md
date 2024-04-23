@@ -48,3 +48,13 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 |        5 | JOHNNY     | LOLLOBRIGIDA | 2006-02-15 04:34:33 |
 +----------+------------+--------------+---------------------+
 ```
+
+Makefile commands
+
+```shell script
+make run         # Run the container
+make create      # Build the image if it doesn't exist
+make open        # Open MySQL interface
+make close       # Stop the container
+make remove      # Remove the container
+```
