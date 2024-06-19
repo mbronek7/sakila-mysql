@@ -12,8 +12,11 @@ create:
 open:
 	docker exec -it sakila-mysql-container mysql -u sakila -pp_ssW0rd sakila
 
-close:
+stop:
 	docker stop sakila-mysql-container
+
+start:
+	docker start sakila-mysql-container
 
 remove:
 	docker rm sakila-mysql-container
